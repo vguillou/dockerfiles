@@ -6,7 +6,7 @@ RUN yum -y install epel-release \
  libXrandr.x86_64 GConf2.x86_64 alsa-lib.x86_64 atk.x86_64 gtk3.x86_64 \
  ipa-gothic-fonts cabextract xorg-x11-utils xorg-x11-font-utils fontconfig \
  xorg-x11-fonts-100dpi xorg-x11-fonts-75dpi xorg-x11-fonts-cyrillic xorg-x11-fonts-Type1 xorg-x11-fonts-misc \
- x11-font-adobe-100dpi x11-font-adobe-75dpi open-sans-fonts liberation \
+ open-sans-fonts liberation-fonts \
  && yum -y groupinstall "Font" \
  && rpm -iv https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm \
  && yum clean all \

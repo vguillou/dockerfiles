@@ -1,4 +1,4 @@
-FROM centos-sshpass:7.7
+FROM vguillou/centos-sshpass:7.7
 
 RUN curl -sL https://rpm.nodesource.com/setup_10.x | bash - \
  && yum -y update \

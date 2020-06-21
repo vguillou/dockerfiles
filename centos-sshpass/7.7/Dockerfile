@@ -1,4 +1,4 @@
-FROM centos:7.7.1908
+FROM centos:8.2.2004
 
 RUN yum -y update \
  && yum -y install sshpass \
